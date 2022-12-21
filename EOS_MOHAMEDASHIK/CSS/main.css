@@ -1,0 +1,140 @@
+body{
+    width: 90%;
+    margin-left: 5%;
+}
+/* header */
+header{
+    background-image: url(../image/header.jpg);
+    width: 1250px;
+    height: 100px
+}
+
+#head-img{
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    margin: 15px 15px ;
+    float: left;
+}
+h1{
+    color: #fff;
+    padding-top: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* nav */
+#nav{
+    float: right;
+    margin-top: -1em;
+    margin-right: 1%;
+    font-family: Segoe UI ;
+    font-size: 18px;
+    color: #fff;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-menus{
+    float: left;
+    color: #fff;
+    list-style: none;
+    padding-right: 1em;
+    text-decoration: none;
+}
+nav li a:hover{
+   color: royalblue;
+}
+/* body sec */
+#body-sec{
+    width: 95%;
+    float: left;
+    
+}
+/* left bar for add  */
+#left-bar{
+    width: 25%;
+    float: left;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.075);
+    padding-bottom: 20px;
+    margin-right: 29px;
+    animation: left 2s ease-in-out;
+}
+@keyframes left{
+    0%{
+     transform: translateX(-40%);
+    }
+   }
+.cards{
+    margin-left: 20px;
+    margin-top: 10px;
+    box-shadow: 3px 0px rgba(255, 0, 0, 0.637);
+}
+.card-img{
+    margin-top: 10px;
+}
+.card-tex{
+    width: 200px;
+}
+.btn{
+    background-color: rgb(65, 105, 225);
+    text-decoration: none;
+    padding: 7px;
+    text-align-last: center;
+    color: #fff;
+}
+/* center bar */
+#center-bar{
+    width: 50%;
+    margin-left: 1.5%;
+    padding-top: 0;
+    float:left;
+    text-align: justify ;
+    display: inline;
+}
+h4{
+    font-size: 27px;
+    color: royalblue;
+}
+#cover-img{
+    float: left;
+    margin-right: 20px;
+}
+/* right side bar */
+#right-bar{
+    width: 20%;
+    display: inline-block;
+    animation: div 2s ease-in-out;
+}
+#right-head
+{
+    padding-left: 10px;
+    text-decoration: none;
+}
+@keyframes div{
+    0%{
+     transform: translateX(50%);
+    }
+   }
+a{
+    text-decoration: none;
+}
+li{
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+/* footer */
+footer{
+    height: 10%;
+    width: 103%;
+    font-family: sans-serif;
+    padding-top: 1.5%;
+    margin-top: 1550px;
+    padding-bottom: 1.5%;
+    text-align: center;
+    background-image: url(../image/foot1.jpg);
+    font-size: 20px;
+    color: #fff;   
+}

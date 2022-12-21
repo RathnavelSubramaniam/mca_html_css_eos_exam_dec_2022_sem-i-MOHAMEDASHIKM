@@ -1,0 +1,105 @@
+body{
+    width: 100%;
+    margin-left: 5%;
+}
+/* header */
+header{
+    background-image: url(../image/header.jpg);
+    width: 1250px;
+    height: 100px
+}
+
+#head-img{
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    margin: 15px 15px ;
+    float: left;
+}
+h1{
+    color: #fff;
+    padding-top: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* nav */
+#nav{
+    float: right;
+    margin-top: -1em;
+    margin-right: 1%;
+    font-family: Segoe UI ;
+    font-size: 18px;
+    color: #fff;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-menus{
+    float: left;
+    color: #fff;
+    list-style: none;
+    padding-right: 1em;
+    text-decoration: none;
+}
+nav li a:hover{
+   color: royalblue;
+}
+/* body sec */
+#body-sec{
+    width: 100%;
+    float: left;
+    
+}
+/* left bar for add  */
+#left-bar{
+    width: 24%;
+    float: left;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.075);
+    padding-bottom: 20px;
+    padding-right: 100px;
+    margin-left: 0px;
+    animation: left 2s ease-in-out;
+}
+@keyframes left{
+    0%{
+     transform: translateX(-40%);
+    }
+   }
+.cards{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: -7em;
+    
+}
+.card-img{
+    margin-top: 10px;
+}
+.card-tex{
+    width: 200px;
+}
+.btn{
+    background-color: rgb(65, 105, 225);
+    text-decoration: none;
+    padding: 7px;
+    text-align-last: center;
+    color: #fff;
+}
+/* center bar */
+#center-bar{
+    width: 60%;
+    margin-left: 1.5%;
+    padding-top: 0;
+    float:left;
+    text-align: justify ;
+    display: inline;
+}
+h4{
+    font-size: 27px;
+    color: royalblue;
+}
+#cover-img{
+    float: left;
+    margin-right: 20px;
+}
